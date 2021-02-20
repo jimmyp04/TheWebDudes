@@ -1,0 +1,202 @@
+body{
+	font:15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#ffffff;
+}
+
+/* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.dark {
+	padding:15px;
+	background:#35424a;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/* Header **/
+header {
+	background:#e6ffe6;
+	color:#734d26;
+	padding-top:30px;
+	min-height:70px;
+	/* This bottom border color is optional **/
+	border-bottom:#734d26 3px solid;
+}
+
+header a{
+	color:#734d26;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+header .highlight, header .current {
+	color:#999999;
+	font-weight:bold;
+}
+
+header a:hover {
+	color:#999999;
+	font-weight:bold;
+}
+
+/* Show Case */
+#showcase{
+	min-height:400px;
+	background:url('../img/urbancons.jpg') no-repeat 0 -340px;
+	background-size:1500px;
+	text-align:center;
+	font-weight:bold;
+	-webkit-text-stroke-width:1.5px;
+	-webkit-text-stroke-color:#331a00;
+	color:white;
+}
+
+#showcase h1 {
+	margin-top: 100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+#showcase p{
+	font-size: 28px;
+}
+
+/* Bottom Border */
+#bottomborder {
+	padding:15px;
+	color:#734d26;
+	background:#e6ffe6;
+}
+
+#bottomborder h1{
+	float:left;
+}
+
+/* Boxes */
+#boxes {
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	text-align:center;
+	width: 30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width: 90px;
+	height: 90px;
+}
+
+/* Side Bar */
+aside#sidebar{
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+
+/* Main-col */
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+/* Chicken Coop */
+ul#chickencoop li{
+	list-style: none;
+	padding:20px;
+	border:#e6ffe6 solid:1px;
+	margin-bottom:5px;
+	color:#734d26;
+	background:#e6ffe6;
+}
+
+/* Our Crops/Our Garden */
+ul#ourcrops li{
+	list-style: none;
+	color:#734d26;
+	padding:20px;
+	border:#e6ffe6 solid:1px;
+	margin-bottom:5px;
+	background:#e6ffe6;
+}
+
+footer {
+	padding:20px;
+	margin-top:20px;
+	color:#734d26;
+	background-color:#e6ffe6;
+	text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+	header #branding,
+	header nav,
+	header nav li,
+	#bottomborder h1,
+	#boxes .box,
+	article#main-col{
+		float:none;
+		text-align:center;
+		width:100%;
+	}
+
+	header {
+		padding-bottom:20px;
+	}
+
+	#showcase h1{
+		margin-top:40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
